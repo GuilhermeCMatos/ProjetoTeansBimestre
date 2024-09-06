@@ -251,6 +251,7 @@
             this.btNorte.TabIndex = 19;
             this.btNorte.Text = "-";
             this.btNorte.UseVisualStyleBackColor = true;
+            this.btNorte.Click += new System.EventHandler(this.btNorte_Click);
             // 
             // btNordeste
             // 
@@ -260,6 +261,7 @@
             this.btNordeste.TabIndex = 20;
             this.btNordeste.Text = "-";
             this.btNordeste.UseVisualStyleBackColor = true;
+            this.btNordeste.Click += new System.EventHandler(this.btNordeste_Click);
             // 
             // btCentro
             // 
@@ -269,6 +271,7 @@
             this.btCentro.TabIndex = 21;
             this.btCentro.Text = "-";
             this.btCentro.UseVisualStyleBackColor = true;
+            this.btCentro.Click += new System.EventHandler(this.btCentro_Click);
             // 
             // btSul
             // 
@@ -278,6 +281,7 @@
             this.btSul.TabIndex = 22;
             this.btSul.Text = "-";
             this.btSul.UseVisualStyleBackColor = true;
+            this.btSul.Click += new System.EventHandler(this.btSul_Click);
             // 
             // btSudeste
             // 
@@ -287,6 +291,7 @@
             this.btSudeste.TabIndex = 23;
             this.btSudeste.Text = "-";
             this.btSudeste.UseVisualStyleBackColor = true;
+            this.btSudeste.Click += new System.EventHandler(this.btSudeste_Click);
             // 
             // Form1
             // 
